@@ -1,36 +1,20 @@
 package main
 
 import "fmt"
-import "reflect"
+
 
 func main() {
 
+// Maps data type
 
-	var students [3]string
+	//var x map[string]string
+ 	
+	x := make(map[string]string)
+	x["name"] = "jubayer"
+	x["height"] = "5.8"
+	X["age"] = "24"
+	x["addr"] = "dhaka"
 
-	students[0] = "jubayer"
-	students[1] = "sagor"
-	students[2] = "toufiq"
-
-	x := students[0:3]
-	fmt.Println(x)
-
-	y := make([]string, 3)
-	fmt.Println(y)
-	
-	var fruits []string
-	fruits = append(fruits, "apple", "banana", "mango")
-	fmt.Println(fruits, len(fruits))
-	fmt.Println("%T \n", fruits)
-	fmt.Println("%T", students)
-
-	a := reflect.TypeOf(students).Kind().String()
-	fmt.Println(a)
-	
-	b := reflect.TypeOf(fruits).Kind().String()
-	fmt.Println(b)
-	
-
-
+	fmt.Println(x["name"])
 
 }
