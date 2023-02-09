@@ -25,7 +25,7 @@ func main() {
 	b1.Price = 10.50,
 	b1.Pages = 165,
 
-*/
+
 	
 
 //annonymus data type
@@ -49,7 +49,11 @@ func main() {
 	fmt.Println(b1.ISBN)
 	fmt.Println(b1.Price)
 	fmt.Println(b1.Pages)
+*/
 
+
+	var w1 weight 
+	fmt.Println(w1)
 	
 
 }
