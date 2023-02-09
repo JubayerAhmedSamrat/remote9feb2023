@@ -31,6 +31,7 @@ func main(){
 	
 	case 2:
 			fmt.Println("sw infant")
+			fallthrough
 	case 3, 4, 5, 6, 7, 8, 9, 10, 11, 12:
 			fmt.Println("sw children")
 	case 13, 14, 15, 16, 17, 18, 19:
@@ -39,5 +40,32 @@ func main(){
 			fmt.Println("sw adult")
 
 	}
+
+// for loop
+	
+	for i := 1; i <= 9; i++ {
+	
+	fmt.Println(i)
+}
+
+// array string literal
+	students := []string{"asgor", "foyzul", "ekramul"}
+	for i, std := range students {
+	
+	fmt.Println(i, std)
+	}
+	
+	i := 0
+
+	for i < 10 {
+		
+
+		fmt.Println(i, "hello jubayer")
+	
+		i++
+
+	}
+
+	
 
 }
